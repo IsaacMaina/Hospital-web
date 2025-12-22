@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MediCare Hospital Kenya - Advanced Healthcare Solutions
 
-## Getting Started
+A modern, cinematic Next.js hospital website featuring advanced animations, responsive design, and comprehensive healthcare services.
 
-First, run the development server:
+## Features
 
+- **Cinematic Design**: Modern UI with smooth animations and transitions
+- **Responsive Layout**: Fully responsive design for all device sizes
+- **Interactive Elements**: Hover effects, scroll animations, and dynamic components
+- **Healthcare Services**: Comprehensive pages for appointments, departments, doctors, and more
+- **Authentication System**: Role-based access for patients, doctors, and administrators
+- **Medical Records**: Patient portal for accessing medical records and appointments
+- **Lab & Diagnostics**: Information about diagnostic services
+- **Billing & Insurance**: Clear information about costs and accepted insurance plans
+- **Contact & Emergency**: Easy access to contact information and emergency services
+
+## Technologies Used
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion (for animations)
+- Lucide React (for icons)
+- Next Font (Geist)
+
+## Setup Instructions
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Learn More
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+If needed, create a `.env.local` file in the root directory with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Key Pages
 
-## Deploy on Vercel
+- Home (`/`): Main landing page with cinematic hero section
+- About (`/about`): Information about the hospital
+- Doctors (`/doctors`): List of medical professionals
+- Departments (`/departments`): Medical services by department
+- Appointments (`/appointments`): Booking system
+- Lab & Diagnostics (`/lab`): Information about diagnostic services
+- Billing (`/billing`): Cost and insurance information
+- Contact (`/contact`): Contact information and location
+- Authentication (`/auth`): Login and registration system
+- Patient Dashboard (`/auth/dashboard/patient`): Patient-specific features
+- Doctor Dashboard (`/auth/dashboard/doctor`): Doctor-specific features
+- Admin Dashboard (`/auth/dashboard/admin`): Administrative features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Design Highlights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Cinematic Animations**: Smooth entrance animations using Framer Motion
+- **Parallax Effects**: Depth-enhancing background effects
+- **Hover Interactions**: Engaging hover states for buttons and cards
+- **Number Counters**: Animated statistics counters
+- **Gradient Backgrounds**: Modern color gradients throughout
+- **Responsive Navigation**: Collapsible mobile menu with smooth transitions
+- **Accessibility**: Proper semantic HTML and ARIA attributes
+
+## Project Structure
+
+```
+src/
+├── app/                 # Next.js app router pages
+│   ├── (auth)/          # Authentication pages
+│   ├── about/           # About page
+│   ├── appointments/    # Appointment booking
+│   ├── contact/         # Contact page
+│   ├── departments/     # Department pages
+│   ├── doctors/         # Doctors listing
+│   ├── lab/             # Lab services
+│   ├── billing/         # Billing information
+│   └── layout.tsx       # Root layout
+├── components/          # Reusable UI components
+├── context/             # React context providers
+└── lib/                 # Utility functions
+```
+
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests.
+
+## License
+
+This project is licensed under the MIT License.
