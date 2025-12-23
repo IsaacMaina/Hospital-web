@@ -12,7 +12,7 @@ const doctors = [
     specialty: "Cardiology",
     education: "MD, Cardiology Fellowship",
     experience: "15 years",
-    image: "/doctors/dr-maina-isaac-wachira.jpg",
+    image: "https://images.pexels.com/photos/4059117/pexels-photo-4059117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     bio: "Dr. Wachira specializes in interventional cardiology with a focus on minimally invasive procedures. He has published over 30 research papers in leading cardiology journals.",
     languages: ["English", "Swahili"],
     availability: "Mon, Wed, Fri: 9AM - 5PM"
@@ -23,7 +23,7 @@ const doctors = [
     specialty: "Orthopedic Surgery",
     education: "MD, Orthopedic Surgery Residency",
     experience: "12 years",
-    image: "/doctors/dr-jane-mwangi.jpg",
+    image: "https://images.pexels.com/photos/3845953/pexels-photo-3845953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     bio: "Dr. Mwangi is a leading orthopedic surgeon specializing in joint replacement and sports medicine. She has performed over 2,000 successful surgeries.",
     languages: ["English", "Swahili"],
     availability: "Tue, Thu: 10AM - 6PM"
@@ -34,7 +34,7 @@ const doctors = [
     specialty: "Pediatrics",
     education: "MD, Pediatric Residency",
     experience: "10 years",
-    image: "/doctors/dr-sarah-ochieng.jpg",
+    image: "https://images.pexels.com/photos/3242607/pexels-photo-3242607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     bio: "Dr. Ochieng is dedicated to providing compassionate care for children. She focuses on preventive medicine and patient education.",
     languages: ["English", "Swahili"],
     availability: "Mon-Fri: 8AM - 4PM"
@@ -45,7 +45,7 @@ const doctors = [
     specialty: "Neurology",
     education: "MD, Neurology Fellowship",
     experience: "18 years",
-    image: "/doctors/dr-james-kamau.jpg",
+    image: "https://images.pexels.com/photos/5325127/pexels-photo-5325127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     bio: "Dr. Kamau specializes in treating neurological disorders with a focus on personalized treatment plans. He has extensive research experience.",
     languages: ["English"],
     availability: "Tue, Thu, Sat: 9AM - 5PM"
@@ -56,7 +56,7 @@ const doctors = [
     specialty: "Dermatology",
     education: "MD, Dermatology Residency",
     experience: "14 years",
-    image: "/doctors/dr-lisa-wanjiku.jpg",
+    image: "https://images.pexels.com/photos/4059121/pexels-photo-4059121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     bio: "Dr. Wanjiku is an expert in cosmetic and medical dermatology with a focus on skin cancer prevention and treatment.",
     languages: ["English", "Swahili"],
     availability: "Mon, Wed, Fri: 10AM - 6PM"
@@ -67,7 +67,7 @@ const doctors = [
     specialty: "General Surgery",
     education: "MD, General Surgery Residency",
     experience: "16 years",
-    image: "/doctors/dr-robert-muthomi.jpg",
+    image: "https://images.pexels.com/photos/4059125/pexels-photo-4059125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     bio: "Dr. Muthomi specializes in minimally invasive surgical techniques with a focus on patient safety and recovery.",
     languages: ["English"],
     availability: "Tue, Thu: 8AM - 4PM"
