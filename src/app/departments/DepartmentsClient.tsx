@@ -17,7 +17,7 @@ const departments = [
     icon: <Stethoscope className="h-10 w-10 text-blue-600" />,
     description: "Comprehensive primary healthcare services for adults and children, including routine checkups, preventive care, and chronic disease management.",
     doctors: 15,
-    image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    image: "/departments/general-medicine.jpg",
     services: ["Routine Checkups", "Chronic Disease Management", "Preventive Care", "Health Screenings"]
   },
   {
@@ -26,7 +26,7 @@ const departments = [
     icon: <Baby className="h-10 w-10 text-blue-600" />,
     description: "Specialized medical care for infants, children, and adolescents, focusing on growth, development, and childhood diseases.",
     doctors: 8,
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1953&q=80",
+    image: "/departments/pediatrics.jpg",
     services: ["Well-child Visits", "Vaccinations", "Developmental Assessments", "Pediatric Emergencies"]
   },
   {
@@ -35,7 +35,7 @@ const departments = [
     icon: <HeartPulse className="h-10 w-10 text-blue-600" />,
     description: "Comprehensive care for expectant mothers, including prenatal, delivery, and postpartum services in a comfortable environment.",
     doctors: 12,
-    image: "https://images.unsplash.com/photo-1591348278998-0a8a4d6c4b67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    image: "/departments/maternity.jpg",
     services: ["Prenatal Care", "Labor & Delivery", "Postpartum Care", "Newborn Care"]
   },
   {
@@ -44,7 +44,7 @@ const departments = [
     icon: <Scissors className="h-10 w-10 text-blue-600" />,
     description: "Advanced surgical services with state-of-the-art equipment and minimally invasive techniques for faster recovery.",
     doctors: 10,
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1953&q=80",
+    image: "/departments/surgery.jpg",
     services: ["General Surgery", "Minimally Invasive Surgery", "Robotic Surgery", "Surgical Consultations"]
   },
   {
@@ -53,7 +53,7 @@ const departments = [
     icon: <Heart className="h-10 w-10 text-blue-600" />,
     description: "Specialized care for heart and cardiovascular conditions, including diagnostic services and interventional procedures.",
     doctors: 7,
-    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    image: "/departments/cardiology.jpg",
     services: ["Cardiac Consultations", "Diagnostic Tests", "Interventional Procedures", "Cardiac Rehabilitation"]
   },
   {
@@ -62,7 +62,7 @@ const departments = [
     icon: <Brain className="h-10 w-10 text-blue-600" />,
     description: "Comprehensive neurological care for disorders of the brain, spinal cord, and nervous system.",
     doctors: 6,
-    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    image: "/departments/neurology.jpg",
     services: ["Neurological Consultations", "Diagnostic Tests", "Treatment Plans", "Rehabilitation"]
   }
 ];
