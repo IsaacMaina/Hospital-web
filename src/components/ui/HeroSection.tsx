@@ -8,12 +8,15 @@ const HeroSection = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center gradient-bg overflow-hidden">
       <div className="absolute inset-0 bg-black/20 z-10"></div>
-      <div className="absolute inset-0 z-0" style={{
-        backgroundImage: "url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI5NDAiIHZpZXdCb3g9IjAgMCAxOTIwIDk0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwKSI+CjxyZWN0IHdpZHRoPSIxOTIwIiBoZWlnaHQ9Ijk0MCIgZmlsbD0iIzFiNGZiYSIvPgo8cGF0aCBkPSJNMTE1OC41NSAxMzcuNzI4QzEyNTAuMjkgMTM3LjcyOCAxMzI0IDI3OS43NDggMTMyNCAzODMuNjI4QzEzMjQgNDg3LjUwOCAxMjUwLjI5IDYyOS41MjggMTE1OC41NSA2MjkuNTI4QzEwNjYuODEgNjI5LjUyOCA5OTMgNDg3LjUwOCA5OTMgMzgzLjYyOFMxMDY2LjgxIDEzNy43MjggMTE1OC41NSAxMzcuNzI4WiIgZmlsbD0iIzFlNGRiOCIvPgo8cGF0aCBkPSJNNzQxLjQ1IDEzNy43MjhDNjQ5LjcxIDEzNy43MjggNTc2IDI3OS43NDggNTc2IDM4My42MjhDNSc2IDQ4Ny41MDggNjQ5LjcxIDYyOS41MjggNzQxLjQ1IDYyOS41MjhIODMzLjE4OEM5MjQuOTI4IDYyOS41MjggOTk4LjYzOCA0ODcuNTA4IDk5OC42MzggMzgzLjYyOFM5MjQuOTI4IDEzNy43MjggODMzLjE4OCAxMzcuNzI4SDc0MS40NVoiIGZpbGw9IiMxZTRkYjgiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMCI+CjxyZWN0IHdpZHRoPSIxOTIwIiBoZWlnaHQ9Ijk0MCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
-      }}></div>
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1953&q=80')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      ></div>
       
       <div className="container mx-auto px-4 relative z-20">
         <motion.div 
